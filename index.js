@@ -1,17 +1,15 @@
- var Person = {
-            constuctor: function(name, age, gender){
-                    this.name = name;
-                    this.age = age;
-                    this. gender = gender;
-                    return this;
-                },
-                greet: function () {
-                    document.write("Hello my name is" + " " + this.name);
-                }
-            };
-            
-            var person = new Person.constuctor("georg", 25, "meal");
-            var person2 = new Person.constuctor("lupa", 22,"something");
-            
-
-document.write(person2);
+var now = new Date()
+    if (now.getDay() == 0)
+document.write("Воскресенье - Отдыхайте, завтра рабочий день...")
+    if (now.getDay() == 1)
+document.write("Сегодня понедельник - настраивайтесь на работу")
+    if (now.getDay() == 2)
+document.write("Уже вторник, понедельник к счастью позади!")
+    if (now.getDay() == 3)
+document.write("Половина недели позади - сегодня уже среда")
+    if (now.getDay() == 4)
+document.write("Сегодня четверг, скоро выходные...")
+    if (now.getDay() == 5)
+document.write("Сегодня пятница - последний рабочий день")
+    if (now.getDay() == 6)
+document.write("Сегодня Субота - первый день выходных!")
