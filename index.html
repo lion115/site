@@ -1,70 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+ <!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/carousel/#contact -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="aCDxJ4qjB4-_LPOT9OOKoRyIG-1mxbduvG_0lsCzBPA.png">
+    <link href="../css/font-awesome.css" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/common.css" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-     
+    <title>Практика</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Carousel Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./Carousel Template for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./Carousel Template for Bootstrap_files/ie-emulation-modes-warning.js.Без названия"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./Carousel Template for Bootstrap_files/carousel.css" rel="stylesheet">
   </head>
+<!-- NAVBAR
+================================================== -->
   <body>
-    
-    <nav role="navigation" class="navbar navbar-inverse static-top">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a href="#" class="navbar-brand">БРЕНД</a>
-  </div>
-  <!-- Collection of nav links, forms, and other content for toggling -->
-  <div id="navbarCollapse" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Главная</a></li>
-      <li><a href="#">Статьи</a></li>
-      <li><a href="#">Новости</a></li>
-      <li>
-        <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Топ колоды)))<b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-voina/">ТОП КОЛОДЫ ВОИНА</a></li>  
-          <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-chernoknizhnika/">ТОП КОЛОДЫ ЧЕРНОКНИЖНИКА</a></li>  
-          <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-shamana/">ТОП КОЛОДЫ ШАМАНА</a></li>  
-          <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-zhreca/">ТОП КОЛОДЫ ЖРЕЦА</a></li>
-          <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-paladina/">ТОП КОЛОДЫ ПАЛАДИНА</a></li>
-          <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-maga/">ТОП КОЛОДЫ МАГА</a></li>
-          <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-oxotnika/">ТОП КОЛОДЫ ОХОТНИКА</a></li>
-          <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-razbojnika/">ТОП КОЛОДЫ РАЗБОЙНИКА</a></li>
-          <li><a herf="http://hs-manacost.ru/top-kolody/top-koloda-druida/">ТОП КОЛОДЫ ДРУИДА</a></li>
-        </ul>
-      </li>
-      <li><a href="#">О компании</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Войти</a></li>
-    </ul>
-  </div>
-</nav>
-    
-    
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-  </body>
-</html>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://getbootstrap.com/examples/carousel/#">LOGO</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Главная</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Больше</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Топ колоды <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-voina/">ТОП КОЛОДЫ ВОИНА</a></li>  
+                    <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-chernoknizhnika/">ТОП КОЛОДЫ ЧЕРНОКНИЖНИКА</a></li>  
+                    <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-shamana/">ТОП КОЛОДЫ ШАМАНА</a></li>  
+                    <li><a href="http://hs-manacost.ru/top-kolody/top-kolody-zhreca/">ТОП КОЛОДЫ ЖРЕЦА</a></li>
+                    <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-paladina/">ТОП КОЛОДЫ ПАЛАДИНА</a></li>
+                    <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-maga/">ТОП КОЛОДЫ МАГА</a></li>
+                    <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-oxotnika/">ТОП КОЛОДЫ ОХОТНИКА</a></li>
+                    <li><a herf="http://hs-manacost.ru/top-kolody/top-kolody-razbojnika/">ТОП КОЛОДЫ РАЗБОЙНИКА</a></li>
+                    <li><a herf="http://hs-manacost.ru/top-kolody/top-koloda-druida/">ТОП КОЛОДЫ ДРУИДА</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="hehe.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1> </h1>
+              <p> </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Кнопка</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <img class="second-slide" src="fantasy-wallpapers-2560x1600-0000.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1> </h1>
+              <p> </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Кнопка</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="wallhaven-365021.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1> </h1>
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Кнопка</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+         <img class="third-slide" src="look.com_.ua-23287.jpg" alt="fourth slide">
+         <div class="container">
+          <div class="carousel-caption">
+            <h1> </h1>
+            <p></p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Кнопка</a></p>
+          </div>
+        </div>
+       </div>
+      </div>
+      <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="ecf1b9430e27323344b03ce06d7dd0df.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>ВАЛИРА</h2>
+          <p>Валира Сангвинар (англ. Valeera Sanguinar) – молодая эльфийка крови, которая была одним из гладиаторов в Багровом Кольце, когда был обнаружен потерявший память Вариан Ринн. Валира вместе с Броллом стала его напарником в команде арены и сопровождала его в приключениях по дороге в Штормград после побега. Когда Вариан вернул себе трон, Валира стала его советником, хотя и сохранила независимость. Валира считает себя частью народа эльфов крови, испытывая гордость за их традиции и оправдывая их поступки. Однако, она действует абсолютно независимо от правителей Кель'Таласа и официально не была частью ни Орды, ни Альянса с момента своего появления.</p>
+          <p><a class="btn btn-default" href="http://rpwiki.ru/%D0%92%D0%B0%D0%BB%D0%B8%D1%80%D0%B0_%D0%A1%D0%B0%D0%BD%D0%B3%D0%B2%D0%B8%D0%BD%D0%B0%D1%80" role="button">Узнать больше »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="maxresdefault.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>ГАРРОШ</h2>
+          <p>Гаррош Адский Крик, сын Грома Адского Крика, и бывший лидер армии Песни Войны является действующим вождем Орды. С открытием Темного Портала Гаррош был приглашен в Орду самим Траллом и являлся личным его советником. Позднее Гаррош возглавлял Армию Песни Войны в Нордсколе и получил должность действующего вождя в отсутствие Тралла. </p>
+          <p><a class="btn btn-default" href="http://rpwiki.ru/%D0%93%D0%B0%D1%80%D1%80%D0%BE%D1%88_%D0%90%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%9A%D1%80%D0%B8%D0%BA" role="button">Узнать боьше »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="NkM17nH.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>ТРАЛЛ</h2>
+          <p>Тралл, сын Дуротана (англ. Thrall, Son of Durotan) - орк, третий лидер Орды. Он является воплощением доблести, силы и отваги всей расы орков. Именно Тралл вывел свой народ из людских лагерей и открыл ему путь к свободе и процветанию. Теперь, во главе с Траллом, Новая Орда стала одной из самых влиятельных сил в Азероте. Тралл - шаман, который всегда видит глубинную суть стихий, эти видения помогают ему принимать правильные и наиболее подходящие решения в сложных ситуациях. При рождении ему было дано имя Го'эль.
+          При событиях Катаклизма Тралл покинул Оргриммар и оставил вождём Гарроша Адского Крика.</p>
+          <p><a class="btn btn-default" href="http://rpwiki.ru/%D0%A2%D1%80%D0%B0%D0%BB%D0%BB" role="button">Узнать больше »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Здесь можно посмотреть веселые моменты<span class="text-muted">Будет очень весело!!!</span></h2>
+          <p class="lead">That's not how you sax, bro!</p>
+          <p>Ссылка на группу в ВК<p><a class="btn btn-lg btn-primary" href="https://vk.com/hearthtrolden" role="button"><i class="fa fa-vk"></i> </a></p></p>
+        </div>
+        <div class="col-md-5">
+           <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="#"></iframe>
+             <div class="responsiveyoutube">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/LF4POd06Kwg" frameborder="0" allowfullscreen></iframe>
+             </div>
+           </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Здесь можно посмотреть на открытие паков<span class="text-muted">Мне никогда так не везло((( </span></h2>
+          <p class="lead">Какой-то текст</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="#"></iframe>
+             <div class="responsiveyoutube">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/DIr0wN5VCH8" frameborder="0" allowfullscreen></iframe>
+             </div>
+           </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">На главную</a></p>
+        <p>© 2016 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Carousel Template for Bootstrap_files/jquery.min.js.Без названия"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./Carousel Template for Bootstrap_files/bootstrap.min.js.Без названия"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./Carousel Template for Bootstrap_files/holder.min.js.Без названия"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./Carousel Template for Bootstrap_files/ie10-viewport-bug-workaround.js.Без названия"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
